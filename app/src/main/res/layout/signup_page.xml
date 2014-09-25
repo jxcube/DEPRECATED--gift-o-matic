@@ -6,25 +6,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="#ffc50e0e">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fb_button"
-        android:focusableInTouchMode="false"
-        android:background="@drawable/fb_button"
-        android:layout_marginBottom="47dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton7"
-        android:focusableInTouchMode="false"
-        android:background="@drawable/fb_button"
-        android:layout_above="@+id/fb_button"
-        android:layout_alignLeft="@+id/fb_button" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
