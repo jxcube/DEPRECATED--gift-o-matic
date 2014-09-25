@@ -34,10 +34,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton11"
         android:background="@drawable/fb_button"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="51dp"
         android:layout_above="@+id/imageButton"
-        android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignStart="@+id/imageButton" />
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -54,19 +53,22 @@
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:background="@drawable/logo"
-        android:layout_above="@+id/imageButton11"
         android:layout_alignLeft="@+id/imageButton11"
         android:layout_alignStart="@+id/imageButton11"
         android:layout_alignRight="@+id/imageButton11"
-        android:layout_alignEnd="@+id/imageButton11" />
+        android:layout_alignEnd="@+id/imageButton11"
+        android:layout_above="@+id/textView" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up with"
         android:id="@+id/textView"
+        android:textSize="27dp"
+        android:textColor="#ff1e1e1e"
         android:layout_above="@+id/imageButton11"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -75,5 +77,16 @@
         android:layout_above="@+id/imageButton"
         android:layout_centerHorizontal="true"
         android:background="@drawable/g+_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ff1e1e1e" />
 
 </RelativeLayout>
