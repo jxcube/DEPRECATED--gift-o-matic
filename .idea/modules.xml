@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gift-O-Matic.iml" filepath="$PROJECT_DIR$/Gift-O-Matic.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gift-o-matic.iml" filepath="$PROJECT_DIR$/gift-o-matic.iml" />
     </modules>
   </component>
 </project>
