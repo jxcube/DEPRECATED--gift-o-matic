@@ -4,13 +4,76 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#ffc50e0e">
+    android:background="#ffc50e0e"><![CDATA[
+
+    ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/email_button" />
+
+    ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton10"
+        android:layout_above="@+id/imageButton7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/fb_button" />
+
+
+
+
+
+    ]]>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton11"
+        android:background="@drawable/fb_button"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/email_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logo"
+        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
+        android:background="@drawable/logo"
+        android:layout_above="@+id/imageButton11"
+        android:layout_alignLeft="@+id/imageButton11"
+        android:layout_alignStart="@+id/imageButton11"
+        android:layout_alignRight="@+id/imageButton11"
+        android:layout_alignEnd="@+id/imageButton11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up with"
+        android:id="@+id/textView"
+        android:layout_above="@+id/imageButton11"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_above="@+id/imageButton"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/ic_launcher" />
+        android:background="@drawable/g+_button" />
+
 </RelativeLayout>
