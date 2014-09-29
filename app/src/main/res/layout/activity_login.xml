@@ -43,32 +43,37 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
         android:background="@drawable/email_button"
+        android:layout_marginBottom="57dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="67dp" />
+        android:layout_alignLeft="@+id/imageButton11"
+        android:layout_alignStart="@+id/imageButton11" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
         android:background="@drawable/logo"
-        android:layout_alignLeft="@+id/imageButton11"
-        android:layout_alignStart="@+id/imageButton11"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="45dp"
+        android:layout_above="@+id/textView"
         android:layout_alignRight="@+id/imageButton11"
         android:layout_alignEnd="@+id/imageButton11"
-        android:layout_above="@+id/textView" />
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up with"
         android:id="@+id/textView"
-        android:textSize="27dp"
+        android:textSize="20dp"
         android:textColor="#ff1e1e1e"
+        android:layout_toStartOf="@+id/imageButton3"
         android:layout_above="@+id/imageButton11"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_toLeftOf="@+id/imageButton3" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -83,7 +88,7 @@
         android:layout_height="wrap_content"
         android:text="OR"
         android:id="@+id/textView2"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:layout_above="@+id/imageButton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
