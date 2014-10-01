@@ -12,9 +12,13 @@ package gift;
  */
 public class Gift {
     String name;
-    Details details;
+    Details category;
     String pictLoc;
+    String description;
+    String place;
+    String ItemID;
+    
     int match(Details target){
-        return details.match(target);
+        return category.match(target);
     }
 }
