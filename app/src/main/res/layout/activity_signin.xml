@@ -19,8 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="SignUp with:"
-            android:id="@+id/Signuptext"
+            android:text="Sign In with:"
+            android:id="@+id/Signintext"
             android:layout_marginBottom="7dp"
             android:typeface="sans"
             android:layout_marginLeft="25dp" />
