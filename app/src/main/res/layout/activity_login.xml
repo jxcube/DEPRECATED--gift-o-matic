@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#ffc50e0e"><![CDATA[
+    android:background="@drawable/logo"><![CDATA[
 
     ImageButton
         android:layout_width="wrap_content"
@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton11"
         android:background="@drawable/fb_button"
-        android:layout_marginBottom="51dp"
-        android:layout_above="@+id/imageButton"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
@@ -43,8 +43,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
         android:background="@drawable/email_button"
-        android:layout_marginBottom="57dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView2"
         android:layout_alignLeft="@+id/imageButton11"
         android:layout_alignStart="@+id/imageButton11" />
 
@@ -54,15 +53,14 @@
         android:id="@+id/imageView"
         android:background="@drawable/logo"
         android:layout_marginRight="29dp"
-        android:layout_marginBottom="45dp"
         android:layout_marginLeft="29dp"
         android:layout_marginTop="45dp"
-        android:layout_above="@+id/textView"
         android:layout_alignRight="@+id/imageButton11"
         android:layout_alignEnd="@+id/imageButton11"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_alignStart="@+id/textView"
+        android:layout_above="@+id/textView" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,7 +70,7 @@
         android:textSize="20dp"
         android:textColor="#ff1e1e1e"
         android:layout_toStartOf="@+id/imageButton3"
-        android:layout_above="@+id/imageButton11"
+        android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/imageButton3" />
 
     <ImageButton
@@ -88,10 +86,9 @@
         android:layout_height="wrap_content"
         android:text="OR"
         android:id="@+id/textView2"
-        android:textSize="25dp"
-        android:layout_above="@+id/imageButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:textColor="#ff1e1e1e" />
+        android:textSize="22dp"
+        android:textColor="#ff1e1e1e"
+        android:layout_below="@+id/imageButton11"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
