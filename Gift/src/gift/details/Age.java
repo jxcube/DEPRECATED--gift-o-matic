@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 
-package gift;
+package gift.details;
 
 /**
  *
  * @author izul
  */
-enum Age {
+public enum Age {
     BELOW_FIVE(0,5),KIDS(0,5),TEEN(0,5),ADULT(0,5),ELDER(0,5);
     int upperLimit,lowerLimit;
     private Age(int x, int y){

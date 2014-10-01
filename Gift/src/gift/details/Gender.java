@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package gift;
+package gift.details;
 
 /**
  *
  * @author izul
  */
-enum Gender {
+public enum Gender {
     MALE,FEMALE;
 }

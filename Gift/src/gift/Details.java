@@ -5,24 +5,24 @@
  */
 package gift;
 
+import gift.details.*;
+
+
 /**
  *
  * @author izul
  */
 class Details {
 
-    Age agePrefered;
-    Age ageRestriction;
-    Gender genderPrefered;
+
+    Age age;
+    Gender gender;
+    Occasion occasion;
+    Budget budget;
+    Interest interest;
     private int currentMatch = 0;
 
-    private int match(Details target) {
-        if (target.agePrefered.equals(ageRestriction)) {
-            return 0;
-        }
-        if (target.agePrefered.equals(agePrefered)) {
-            currentMatch++;
-        }
+    int match(Details target) {
         return currentMatch;
     }
 
